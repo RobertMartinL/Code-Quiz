@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: rgb(53, 53, 53);
+    font-size: larger;
+    color: aliceblue;
+}
+
+header {
+    height: 150px;
+    width: 100vw;
+    background-color: rgb(0, 89, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-size: x-large;
+    box-shadow: 0 0 20px 2px black;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+
+}
+
+.quiz-container {
+    background-color: rgb(0, 0, 111);
+    height: 50%;
+    width: 70%;
+    margin-top: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 0 20px 2px black;
+    height: fit-content;
+}
+
+#start-prompt {
+    
+}
+
+.btn-container {
+    height: 250px;
+    width: 100%;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+button {
+    width: 160px;
+    height: 60px;
+    background-color: rgb(0, 89, 255);
+    border-radius: 10px;
+    color:aliceblue;
+}
+
+.start-btn {
+    background-color: rgb(0, 89, 255);
+    font-size: larger;
+    height:55px;
+    width: 40%;
+    margin: 0 30%;
+    margin-top: 40px;
+    box-shadow: 0 0 20px 2px;
+    display: block;
+    box-shadow: 0 0 20px 2px black;
+    color: aliceblue;
+}
+
+footer{
+    height: 150px;
+    background-color: rgb(0, 0, 111);
+}
+
+#time {
+    color: aliceblue;
+    
+    width: 20px;
+    border-radius: 10px;
+    float: right;
+    padding: 2px;
+    margin-right: 60px;
+}
+
+span {
+    color: gold;
+}
+
+#score-message {
+    color: rgb(0, 89, 255);
+    text-align: center;
+    margin-top: 60px;
+}
+
+input {
+  outline: none;
+  border: none;
+  padding: 12px;
+  width: 15%;
+  font-size: 1.3rem;
+  border: 2px solid var(--grey);
+  border-radius: 12px;
+  text-align: center;
+  margin: 20px 20px 42.5% 42.5%;
+}
+
+.high-score-container {
+
+}
+
+
